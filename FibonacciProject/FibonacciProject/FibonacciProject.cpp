@@ -5,7 +5,11 @@ int fibonacci(int); //function prototype
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	for (int i = 0; i <=10; i++)
+	{
+		std::cout << "fibonacci of (" << i << ") = "
+			<< fibonacci(i) << "\n";
+	}
 }
 
 //function definition
